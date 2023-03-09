@@ -8,15 +8,6 @@ const calcFunction = (calculations: string, x: number) => {
     return evaluate(changedByX);
 };
 
-// todo: write unit test
-// Начальная граница: 0
-// Конечная граница: 1
-// Число частичных интегралов: 5
-// Функция: 2*2^x
-// Знаков после запятой (опционально): 3
-// Результат: 2.890
-// calculator - https://planetcalc.ru/5494/#calculator6472
-// habr - https://habr.com/ru/post/479202/
 export const trapezoidalIntegral = ({
     startBorder,
     endBorder,
