@@ -7,7 +7,7 @@ const getNumberInFilename = (filename: string) => {
     return Number(filename.slice(lastDashIndex, dotIndex));
 };
 
-const getFilenameWithIndex = (index: number) => `task-conditions-${index}.txt`;
+const getFilenameWithIndex = (index: number) => `task-${index}.txt`;
 
 export const createFilename = async (folderPath: string) => {
     try {
